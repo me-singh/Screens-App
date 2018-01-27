@@ -17,9 +17,6 @@ import android.widget.ZoomControls;
 
 public class CurFragment extends Fragment {
 
-    double currentZoom=1;
-    ScaleAnimation scaleAnimation;
-
     public static CurFragment newInstance(int position) {
 
         Bundle args = new Bundle();
